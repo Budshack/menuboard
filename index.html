@@ -1,10 +1,93 @@
 <html>
-	<header>
-	</header>
+	<head>
+		<style>
+			#flower-container {
+				display:grid;
+				grid-template-columns:repeat(3,1fr);
+			}
+			#conc-container {
+				display:grid;
+				grid-template-columns: repeat(3,1fr);
+			}
+			.edibles-container {
+				display:grid;
+				grid-template-columns: repeat(3,1fr);
+			}
+			.flower-type {
+				min-height:50px;
+			}
+			.edible-type {
+				min-height:50px;
+			}
+			.conc-type {
+				min-height: 50px;
+			}
+		</style>
+	</head>
 	<body>
 		<div style="width:100%">
-			<div style="font-size: 14px">
+			<div style="font-size: 28px">
 				Bud Shack
+			</div>
+		</div>
+		Flower
+		<div id="flower-container">
+			<div class="flower-type">
+				Indica
+				<ul>
+					<li>Melon Gum - 5$</li>
+					<li>Derga Matta - 6$</li>
+				</ul>
+			</div>
+			<div class="flower-type">
+				Sativa
+				<ul>
+					<li>Green Crack Special - 4$</li>
+					<li>Trainwreck - 4$</li>
+				</ul>
+			</div>
+			<div class="flower-type">
+				Hybrid
+				<ul>
+					<li>M39 Royal - 6$</li>
+					<li>Gorilla Glue- 7$</li>
+				</ul>
+			</div>
+		</div>
+		Concentrates
+		<div id="conc-container">
+			<div class="conc-type">
+				Shatter
+			</div>
+			<div class="conc-type">
+				Resin
+			</div>
+			<div class="conc-type">
+				Oils
+			</div>
+		</div>
+		Edibles - THC
+		<div class="edibles-container">
+			<div class="edible-type">
+				Chocolates
+			</div>
+			<div class="edible-type">
+				Gummies
+			</div>
+			<div class="edible-type">
+				Other
+			</div>
+		</div>
+		Edibles - CBD
+		<div class="edibles-container">
+			<div class="edible-type">
+				Chocolates
+			</div>
+			<div class="edible-type">
+				Gummies
+			</div>
+			<div class="edible-type">
+				Other
 			</div>
 		</div>
 	</body>
